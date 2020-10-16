@@ -19,12 +19,7 @@ Vue.use(Vuetify)
 Vue.config.productionTip = false
 
 const firebaseApp = fb.initializeApp({
-  apiKey: 'AIzaSyAGsdl9qMAtcpP1kWm3WE24--9j6Qg0gJk',
-  authDomain: 'itc-ads-project-4c16f.firebaseapp.com',
-  databaseURL: 'https://itc-ads-project-4c16f.firebaseio.com',
-  projectId: 'itc-ads-project-4c16f',
-  storageBucket: 'itc-ads-project-4c16f.appspot.com',
-  messagingSenderId: '595355856172'
+ 
 })
 
 const db = firebaseApp.firestore()
